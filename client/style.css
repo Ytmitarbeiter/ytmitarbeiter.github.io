@@ -39,6 +39,12 @@ body {
     padding: 16px;
 }
 
+#back {
+    text-align: center;
+    color: gray;
+    padding: 16px;
+}
+
 #coded {
     color: red;
     font-weight: 1000;
