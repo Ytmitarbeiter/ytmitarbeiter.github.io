@@ -22,17 +22,13 @@
         </div>
 
         <script src="https://kit.fontawesome.com/0bf1704b27.js" crossorigin="anonymous"></script>
-        <script type="text/javascript">
+        <script language="javascript">
         url = "http://ytmitarbeiter.github.io/goe/";
-        function validate() {
-            var username = document.getElementById("username").value;
-            var password = document.getElementById("password").value;
-            if(username == "test" && password == "test"){
-                alert ("Login successfully");
-                window.location = url;
-                return false;
+        function check(form) {
+            if(form.username.value == "test" && from.password.value == "test1"){
+                alert("ERROR Passwort or Usernamer")
             } else {
-                alert("False")
+                alert("ERROR Passwort or Username")
             }
         }
         </script>
