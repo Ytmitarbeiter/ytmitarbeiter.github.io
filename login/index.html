@@ -24,16 +24,16 @@
         <script src="https://kit.fontawesome.com/0bf1704b27.js" crossorigin="anonymous"></script>
         <script type="text/javascript">
         url = "http://ytmitarbeiter.github.io/goe/";
-        var username = document.getElementById("username").value;
-        var password = document.getElementById("password").value;
-        var attempt = 3;
-        if(username == "test" && password == "test"){
-            alert ("Login successfully");
-            window.location = "success.html";
-            return false;
-        } else {
-            attempt --;
-            alert("You have left " +attempt+" attempt;");
+        function validate() {
+            var username = document.getElementById("username").value;
+            var password = document.getElementById("password").value;
+            if(username == "test" && password == "test"){
+                alert ("Login successfully");
+                window.location = url;
+                return false;
+            } else {
+                alert("False")
+            }
         }
         </script>
     </body>
