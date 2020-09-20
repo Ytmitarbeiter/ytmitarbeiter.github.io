@@ -12,6 +12,14 @@ body {
     text-align: right;
 }
 
+body.dark {
+    background-color: #1f1f1f;
+    color: white;
+}
+.toggle-container{
+    text-align: right;
+}
+
 #logo-name {
     font-size: 32px;
     font-weight: bold;
