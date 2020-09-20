@@ -11,6 +11,15 @@ body{
     background-image: url(images/weihnachten.jpg);
 }
 
+body.dark {
+    background-image: url(images/weihnachten2.jpg);
+}
+
+.toggle-container{
+    text-align: right;
+    background: unset;
+}
+
 #login {
     margin: 16px;
     text-align: right;
