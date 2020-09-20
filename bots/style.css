@@ -18,6 +18,11 @@ body {
     padding: 8px;
 }
 
+#login {
+    margin: 16px;
+    text-align: right;
+}
+
 #navigation a:hover {
     color: red;
 }
