@@ -11,16 +11,30 @@
             <h1>Login</h1>
             <div class="textbox">
                 <i class="fas fa-users"></i>
-                <input type="text" placeholder="Username" name="" value="">
+                <input type="text" placeholder="Username" id="username" name="" value="">
             </div>
 
             <div class="textbox">
                 <i class="fas fa-key"></i>
-                <input type="password" placeholder="Passwort" name="" value="">
+                <input type="password" placeholder="Passwort" id="passwort" name="" value="">
             </div>
             <input class="btn" type="button" name="" value="Login">
         </div>
 
         <script src="https://kit.fontawesome.com/0bf1704b27.js" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+        url = "http://ytmitarbeiter.github.io/goe/";
+        var username = document.getElementById("username").value;
+        var password = document.getElementById("password").value;
+        var attempt = 3;
+        if(username == "test" && password == "test"){
+            alert ("Login successfully");
+            window.location = "success.html";
+            return false;
+        } else {
+            attempt --;
+            alert("You have left " +attempt+" attempt;");
+        }
+        </script>
     </body>
 </html>
