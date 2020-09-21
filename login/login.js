@@ -1,13 +1,16 @@
 function validateForm() {
-    var un = document.loginform.usr.value;
-    var pw = document.loginform.pword.value;
+    var un = document.loginform.username.value;
+    var pw = document.loginform.password.value;
+    var lb = document.getElementsByClassName("btn");
     var username = "username"; 
     var password = "password";
+    if(lb == true) {
     if ((un == username) && (pw == password)) {
-        window.location = "main.html";
+        window.location = "success.html";
         return false;
     }
     else {
         alert ("Login was unsuccessful, please check your username and password");
     }
+}
   }
