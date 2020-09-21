@@ -1,21 +1,13 @@
-var attempt = 3;
-function validate(){
-var username = document.getElementById("username").value;
-var password = document.getElementById("password").value;
-if ( username == "Formget" && password == "formget#123"){
-alert ("Login successfully");
-window.location = "success.html"; // Redirecting to other page.
-return false;
-}
-else{
-attempt --;// Decrementing by one.
-alert("You have left "+attempt+" attempt;");
-// Disabling fields after 3 attempts.
-if( attempt == 0){
-document.getElementById("username").disabled = true;
-document.getElementById("password").disabled = true;
-document.getElementById("submit").disabled = true;
-return false;
-}
-}
-}
+function validateForm() {
+    var un = document.loginform.usr.value;
+    var pw = document.loginform.pword.value;
+    var username = "username"; 
+    var password = "password";
+    if ((un == username) && (pw == password)) {
+        window.location = "main.html";
+        return false;
+    }
+    else {
+        alert ("Login was unsuccessful, please check your username and password");
+    }
+  }
