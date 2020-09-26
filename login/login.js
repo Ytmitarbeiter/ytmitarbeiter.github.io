@@ -4,7 +4,6 @@ function validateForm() {
     var lb = document.getElementsByClassName("btn");
     var username = "username"; 
     var password = "password";
-    if(lb == true) {
     if ((un == username) && (pw == password)) {
         window.location = "success.html";
         return false;
@@ -12,5 +11,4 @@ function validateForm() {
     else {
         alert ("Login was unsuccessful, please check your username and password");
     }
-}
   }
