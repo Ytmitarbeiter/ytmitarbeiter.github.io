@@ -1,6 +1,6 @@
 function validateForm() {
-    var un = document.loginform.username.value;
-    var pw = document.loginform.password.value;
+    var un = document.getElementById("username").value;
+    var pw = document.getElementById("passwort").value;
     var lb = document.getElementsByClassName("btn");
     var username = "username"; 
     var password = "password";
