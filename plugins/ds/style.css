@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 8px;
+    background-color: darkgray;
+}
+
+#i{
+    text-align: center;
+}
+
+#downloads{
+    text-align: left;
+}
+
+#im img{
+    width: 100%;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
