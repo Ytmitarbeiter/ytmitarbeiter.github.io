@@ -1,13 +1,13 @@
 // Channel, in dem der Bot joinen soll
-var channels = ['rohes_hackfleisch'];
+var channels = ['thejocraft_live', 'rohes_hackfleisch'];
 
 
 // Name vom Bot
-var botusername = 'gebratenes_hachfleisch';
+var botusername = 'rohes_bot';
 
 
 // OAuth vom Bot => https://twitchapps.com/tmi/
-var botoauth = 'oauth:8eczw8a7jplc9moebdduunuxh2sv2l';
+var botoauth = 'oauth:npn8h9jptwzvm9yazb1gtm2ck10hv8';
 
 
 // Hier antwortet der Bot

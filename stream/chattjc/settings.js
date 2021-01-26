@@ -1,5 +1,5 @@
 // https://dev.twitch.tv/console/apps => Anwendung erstellen => ID ClientID
-var krakenClientID = 's55usrbgl52q81aym5akoaturo9cgx';
+var krakenClientID = 'budup1vvigpvz51f167jnb1ct9zxoy';
 
 
 // Channels, die angezeigt werden sollen
